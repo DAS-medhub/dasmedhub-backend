@@ -1,6 +1,11 @@
 {
   "name": "dasmedhub-backend",
   "version": "1.0.0",
+  "main": "api/generate-content.js",
+  "scripts": {
+    "start": "node api/generate-content.js",
+    "build": "echo 'No build step needed'"
+  },
   "dependencies": {
     "node-fetch": "^2.6.1"
   }
